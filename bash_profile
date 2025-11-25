@@ -120,3 +120,10 @@ alias tws-auto-9999-force='~/ibkr_tws/scripts/tws-auto-v2.sh weng9999 --force'
 
 # Kill all TWS instances
 alias tws-kill='pkill -f "JavaApplicationStub" && echo "All TWS instances killed"'
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/kweng/.antigravity/antigravity/bin:$PATH"
